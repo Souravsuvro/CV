@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #04232b;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 1000px;
+    background-color: #bce9e1;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 50%;
+    float: left;
+  }
+  
+  .header-bio {
+    float: left;
+    padding: 30px;
+  }
+  
+  .header-contact {
+    float: right;
+    padding: 30px;
+  }
+  
+  .header-contact a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: rgb(0, 0, 0);
+  }
+  
+  .div-clear {
+    clear: both;
+  }
+  
+  hr {
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+  }
+  
+  #personal-section {}
+  
+  .content {
+    margin-bottom: 30px;
+  }
+  
+  .left-div {
+    width: 30%;
+    float: left;
+    text-align: justify;
+  }
+  
+  .right-div {
+    width: 70%;
+    float: left;
+    text-align: justify;
+  }
+  
+  .skill-left-div {
+    width: 45%;
+    float: left;
+  }
+  
+  .skill-right-div {
+    width: 45%;
+    float: right;
+  }
+  
+  .common-hr {
+    border: solid black 2px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+  }
+  
+  .edu-template-left {
+    float: left;
+    width: 45%;
+  }
+  
+  .edu-template-right {
+    float: right;
+    width: 45%;
+  }
+  
+  .bottom-container {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .bottom-container a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .bottom-container p {
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styling */
+  
+  @media only screen and (max-width: 768px) {
+    .profile-image {
+      width: 80px;
+      height: 90px;
+    }
+  
+    .header-bio,
+    .header-contact {
+      padding: 15px;
+    }
+  
+    .left-div,
+    .right-div {
+      width: 100%;
+    }
+  
+    .edu-template-left,
+    .edu-template-right {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .profile-image {
+      width: 60px;
+      height: 70px;
+    }
+  
+    .header-bio,
+    .header-contact {
+      padding: 10px;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  }
+  
