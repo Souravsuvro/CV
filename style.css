@@ -65,10 +65,10 @@
 
 h1 {
   position: relative;
-  color: hsl(0, 0%, 68%);
+  color: black;
   font-weight: bold;
   font-family: "Anonymous Pro", monospace;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 80%);
   white-space: nowrap;
@@ -81,7 +81,7 @@ h1 {
     width: 0;
   }
   to {
-    width: 710px;
+    width: 500px;
   }
 }
 @keyframes blinkTextCursor {
