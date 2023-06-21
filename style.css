@@ -94,21 +94,12 @@ h1 {
   }
 }
 
-h3 span {
-  transition: 0.5s ease-out;
+h3 {
+  transition: color 0.3s ease;
 }
-h3:hover span:nth-child(1) {
-  margin-right: 30px;
-}
-h3:hover span:nth-child(1):after {
-  content: "'";
-}
-h3:hover span:nth-child(2) {
-  margin-left: 30px;
-}
-h3:hover span {
-  color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+
+h3:hover {
+  color: #ff0000; /* Change to the desired hover color */
 }
   .div-clear {
     clear: both;
