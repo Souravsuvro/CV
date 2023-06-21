@@ -31,23 +31,22 @@
   }
 
 .profile-image {
-  animation: slideAndFade 4s infinite;
+  animation: flipAndBounce 2s infinite;
+  transform-origin: center;
 }
 
-@keyframes slideAndFade {
+@keyframes flipAndBounce {
   0% {
-    transform: translateX(-50px);
-    opacity: 0;
+    transform: rotateY(0) scale(1);
   }
   50% {
-    transform: translateX(0);
-    opacity: 1;
+    transform: rotateY(180deg) scale(1.2);
   }
   100% {
-    transform: translateX(50px);
-    opacity: 0;
+    transform: rotateY(360deg) scale(1);
   }
 }
+
 
 
   
