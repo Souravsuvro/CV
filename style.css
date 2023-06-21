@@ -102,6 +102,7 @@
   .edu-template-left {
     float: left;
     width: 45%;
+    margin-bottom: 20px;
   }
   
   .edu-template-right {
