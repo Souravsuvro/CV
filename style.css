@@ -110,6 +110,12 @@
     width: 45%;
     
   }
+
+.edu-template-below {
+    float: left;
+    width: 45%;
+    margin-top: 20px
+  }
   
   .bottom-container {
     background-color: black;
