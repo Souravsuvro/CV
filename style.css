@@ -94,13 +94,6 @@ h1 {
   }
 }
 
-h3 {
-  transition: color 0.3s ease;
-}
-
-h3:hover {
-  color: #ff0000; /* Change to the desired hover color */
-}
 
 h3 {
   overflow: hidden; /* Ensures the text is clipped initially */
