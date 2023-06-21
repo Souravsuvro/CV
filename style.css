@@ -72,7 +72,7 @@ h3 {
 }
 
 
-h1,h3 {
+h1 {
   position: relative;
   color: black;
   font-weight: bold;
@@ -82,6 +82,18 @@ h1,h3 {
   border-right: 2px solid hsl(0, 0%, 80%);
   white-space: nowrap;
   animation: typewriter 10s steps(44) 1s 1 normal both,
+    blinkTextCursor 700ms infinite;
+}
+
+h3 {
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 2px;
+  overflow: hidden;
+
+  animation: typewriter 20s steps(44) 1s 1 normal both,
     blinkTextCursor 700ms infinite;
 }
 
