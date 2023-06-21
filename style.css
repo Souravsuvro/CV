@@ -31,19 +31,24 @@
   }
 
 .profile-image {
-  animation: rotateAndZoom 3s infinite;
+  animation: slideAndFade 4s infinite;
 }
-@keyframes rotateAndZoom {
+
+@keyframes slideAndFade {
   0% {
-    transform: rotate(0deg) scale(1);
+    transform: translateX(-50px);
+    opacity: 0;
   }
   50% {
-    transform: rotate(180deg) scale(1.2);
+    transform: translateX(0);
+    opacity: 1;
   }
   100% {
-    transform: rotate(360deg) scale(1);
+    transform: translateX(50px);
+    opacity: 0;
   }
 }
+
 
   
   .header-bio {
