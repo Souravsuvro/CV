@@ -12,10 +12,10 @@
   
   .container {
     max-width: 1000px;
-    background-color: coral;
+    background-color: white;
     margin: 0 auto;
     padding: 10px;
-    border-radius: 20px;
+    
   }
   
   .profile-image {
