@@ -72,7 +72,7 @@ h1 {
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 80%);
   white-space: nowrap;
-  animation: typewriter 10s steps(44) 1s 1 normal both,
+  animation: typewriter 5s steps(44) 1s 1 normal both,
     blinkTextCursor 700ms infinite;
 }
 
@@ -82,7 +82,7 @@ h1 {
     width: 0;
   }
   to {
-    width: 780px;
+    width: 680px;
   }
 }
 @keyframes blinkTextCursor {
