@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 * {
     margin: 0;
     padding: 0;
@@ -61,21 +63,34 @@
   cursor: pointer;
 }
 
-h1 span {
-  transition: 0.5s ease-out;
+h1 {
+  position: relative;
+  color: hsl(0, 0%, 68%);
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 7px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
 }
-h1:hover span:nth-child(1) {
-  margin-right: 5px;
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 710px;
+  }
 }
-h1:hover span:nth-child(1):after {
-  content: "'";
-}
-h1:hover span:nth-child(2) {
-  margin-left: 30px;
-}
-h1:hover span {
-  color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
   .div-clear {
     clear: both;
