@@ -81,6 +81,9 @@
     float: left;
     text-align: justify;
   }
+.right-div p {
+    margin-top: 10px
+  }
   
   .skill-left-div {
     width: 45%;
