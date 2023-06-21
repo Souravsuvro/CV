@@ -29,6 +29,23 @@
     border-radius: 50%;
     float: left;
   }
+
+.profile-image {
+  animation: pulsate 2s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
   
   .header-bio {
     float: left;
