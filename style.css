@@ -62,8 +62,17 @@
   letter-spacing: 7px;
   cursor: pointer;
 }
+h3 {
+  color: hsl(0, 0%, 28%);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
 
-h1 {
+
+h1,h3 {
   position: relative;
   color: black;
   font-weight: bold;
