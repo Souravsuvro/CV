@@ -101,6 +101,23 @@ h3 {
 h3:hover {
   color: #ff0000; /* Change to the desired hover color */
 }
+
+h3 {
+  overflow: hidden; /* Ensures the text is clipped initially */
+  white-space: nowrap; /* Prevents line breaks */
+  animation: typewriter 2s steps(30) 1s forwards;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0; /* Starts with no width, hiding the text */
+  }
+  to {
+    width: 100%; /* Ends with full width, revealing the entire text */
+  }
+}
+
+
   .div-clear {
     clear: both;
   }
