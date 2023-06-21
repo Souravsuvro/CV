@@ -195,6 +195,19 @@ h3 {
     color: white;
     margin-top: 20px;
   }
+
+.bottom-container a, .bottom-container p {
+  transition: transform 0.3s ease;
+}
+
+.bottom-container a:hover, .bottom-container p:hover {
+  transform: scale(0.5); /* Adjust the scale value as per your preference */
+}
+
+.bottom-container a:hover i {
+  transform: scale(2); /* Double the size of the icons */
+}
+
   
   /* Responsive Styling */
   
