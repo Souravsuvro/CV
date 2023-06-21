@@ -31,10 +31,9 @@
   }
 
 .profile-image {
-  animation: pulsate 2s infinite;
+  animation: rotateAndZoom 3s infinite;
 }
-
-@keyframes pulsate {
+@keyframes rotateAndZoom {
   0% {
     transform: scale(1);
   }
