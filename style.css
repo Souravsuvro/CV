@@ -31,26 +31,23 @@
   }
 
 .profile-image {
-  animation: spinAndFade 3s infinite;
-  opacity: 0;
+  animation: fadeAndZoom 3s infinite;
 }
 
-@keyframes spinAndFade {
+@keyframes fadeAndZoom {
   0% {
-    transform: rotate(0deg);
     opacity: 0;
+    transform: scale(0.8);
   }
   50% {
-    transform: rotate(360deg);
     opacity: 1;
+    transform: scale(1.2);
   }
   100% {
-    transform: rotate(720deg);
     opacity: 0;
+    transform: scale(0.8);
   }
 }
-
-
 
   
   .header-bio {
