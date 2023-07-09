@@ -149,13 +149,13 @@ h3 {
   }
   
   .left-div {
-    width: 30%;
+    width: 20%;
     float: left;
     text-align: justify;
   }
   
   .right-div {
-    width: 70%;
+    width: 80%;
     float: left;
     text-align: justify;
   }
